@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7346122886:AAFaMhK4VqsilGBoROAj7BbrI_eQaPBncy4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22711559"))
@@ -28,14 +28,14 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "2034654684"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://susantamusic:susantabhan@cluster0.5pwi1py.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = "mongodb+srv://nehal969797:nehalsingh969797@cluster0.7ccmpy4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "7d706f6d7c95ff3fae2f2f40cff10abdc0e012e9")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE',216000)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/ezpzsupport/18")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/ezpzsupport")
 
 
 #force sub channel id, if you want enable force sub
