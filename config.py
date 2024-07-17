@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "22711559"))
 API_HASH = os.environ.get("API_HASH", "07f916d610702eb4b0678bdf32c895c1")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001748572062"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002147298597"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "2034654684"))
@@ -59,7 +59,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "This video/Photo/anything is available on the internet. @purplebotz or its subsidiary channel doesn't produce any of them.")
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
